@@ -1,0 +1,71 @@
+{
+  "printWidth": 90,
+  "embeddedLanguageFormatting": "off",
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "arrowParens": "always",
+  "trailingComma": "all",
+  "singleQuote": true,
+  "jsxSingleQuote": false,
+  "quoteProps": "consistent",
+  "experimentalTernaries": true,
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "proseWrap": "preserve",
+  "endOfLine": "lf",
+
+  "overrides": [
+    {
+      "files": "*.vue",
+      "options": {
+        "parser": "vue",
+        "singleAttributePerLine": false,
+        "vueIndentScriptAndStyle": true,
+        "htmlWhitespaceSensitivity": "css",
+        "embeddedLanguageFormatting": "auto",
+        "bracketSameLine": false
+      }
+    },
+    {
+      "files": "*.(m|c)js(x)",
+      "options": {
+        "parser": "babel"
+      }
+    },
+    {
+      "files": "*.ts(x)",
+      "options": {
+        "parser": "typescript"
+      }
+    },
+    {
+      "files": "*.s(a|c)ss",
+      "options": {
+        "parser": "scss"
+      }
+    },
+    {
+      "files": "*.less",
+      "options": {
+        "parser": "less"
+      }
+    },
+    {
+      "files": "*.json",
+      "options": {
+        "parser": "json",
+        "singleQuote": false,
+        "trailingComma": "none"
+      }
+    },
+    {
+      "files": "*rc",
+      "options": {
+        "parser": "json",
+        "singleQuote": false,
+        "trailingComma": "none"
+      }
+    }
+  ]
+}
